@@ -3,7 +3,8 @@
 class PrimitiveDataTypes{
     public static void main(String[] args) {
         // int integer = 128;
-        // long longInteger = 123456789;
+        long longInteger = 123456789l;
+        System.out.println(longInteger)
         // short shortInteger = 32767;
         // byte by = 127;
 
@@ -16,14 +17,14 @@ class PrimitiveDataTypes{
 
         // Unsigned int num = 255; // No unsigned numbers in JAVA
 
-        int numBin = 0b001;
-        int numHex = 0xAA;
-        double numExpn = 11e10;
+        // int numBin = 0b001;
+        // int numHex = 0xAA;
+        // double numExpn = 11e10;
 
-        System.out.println(numBin + " " + numHex + " " + numExpn);
+        // System.out.println(numBin + " " + numHex + " " + numExpn);
 
-        char character = 'a';
-        character++;
-        System.out.println(character);
+        // char character = 'a';
+        // character++;
+        // System.out.println(character);
     }
 }
