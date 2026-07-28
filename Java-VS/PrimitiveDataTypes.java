@@ -3,8 +3,8 @@
 class PrimitiveDataTypes{
     public static void main(String[] args) {
         // int integer = 128;
-        long longInteger = 123456789l;
-        System.out.println(longInteger)
+        // long longInteger = 123456789l;
+        // System.out.println(longInteger);
         // short shortInteger = 32767;
         // byte by = 127;
 
@@ -26,5 +26,8 @@ class PrimitiveDataTypes{
         // char character = 'a';
         // character++;
         // System.out.println(character);
+
+        var myNum = 10;
+        System.out.println(myNum);
     }
 }
